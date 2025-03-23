@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ReciclaTech</string>
+    <string name="ReiclaTech">ReiclaTech</string>
+    <string name="carriho">carrinho</string>
+    <string name="saídas">saídas</string>
+    <string name="caixa">caixa</string>
+    <string name="estoque">estoque</string>
+
+</resources>
