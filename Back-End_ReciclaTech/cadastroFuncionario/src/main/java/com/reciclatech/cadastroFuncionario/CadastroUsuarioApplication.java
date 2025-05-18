@@ -1,13 +1,13 @@
-package com.example.ReciclaTech;
+package com.reciclatech.cadastroFuncionario;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReciclaTechApplication {
+public class CadastroUsuarioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReciclaTechApplication.class, args);
+		SpringApplication.run(CadastroUsuarioApplication.class, args);
 	}
 
 }
