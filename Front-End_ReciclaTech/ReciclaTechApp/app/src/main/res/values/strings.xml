@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ReciclaTechApp</string>
+    <string name="Entrar">entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_login">Login</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="bt_cadastrar">Cadastrar</string>
+
+
+    <string name="ReiclaTech">ReiclaTech</string>
+    <string name="carriho">carrinho</string>
+    <string name="saídas">saídas</string>
+    <string name="caixa">caixa</string>
+    <string name="estoque">estoque</string>
+</resources>

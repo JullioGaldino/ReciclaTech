@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727505787156",
+    "project_id": "reciclatech-a0c4f",
+    "storage_bucket": "reciclatech-a0c4f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727505787156:android:0569a103f93599a6fbca01",
+        "android_client_info": {
+          "package_name": "com.example.reciclatechapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC65YBWTfo4X8N3RwJbJRONxjSCQ3QBidU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
