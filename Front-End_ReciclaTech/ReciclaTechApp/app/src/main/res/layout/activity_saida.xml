@@ -5,12 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".back_act.TelaPrincipal"
+    tools:context=".back_act.Fsaida"
     android:background="@color/white">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
+        android:id="@+id/appBarLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="93dp"
+        app:layout_constraintBottom_toTopOf="@+id/Registro_Saida"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -26,8 +29,8 @@
             <Toolbar
                 android:id="@+id/toolbar"
                 style="@style/ContainerComponents_Toobar"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
+                android:layout_width="410dp"
+                android:layout_height="52dp"
                 android:layout_marginTop="2dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -83,33 +86,64 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+
     <ImageView
-        android:id="@+id/logo_app"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo"
-        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/Registro_Saida"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/registro_saida"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:alpha="0.3"
+        android:layout_marginBottom="73dp"
+        android:alpha="0.9"
         android:fontFamily="sans-serif-black"
         android:includeFontPadding="false"
-        android:text="@string/app_name"
-        android:textColor="#707980"
+        android:text="Registro de Saída"
+        android:textColor="@color/dark_blue"
         android:textIsSelectable="false"
-        android:textSize="50sp"
+        android:textSize="30sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Historico_Saida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Registro_Saida" />
+
+    <ImageView
+        android:id="@+id/Historico_Saida"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="250dp"
+        android:src="@drawable/historio_saida"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo_app"
-        app:layout_constraintVertical_bias="0.038"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_historico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:alpha="0.9"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:text="Historico de Saída"
+        android:textColor="@color/dark_blue"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Historico_Saida" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

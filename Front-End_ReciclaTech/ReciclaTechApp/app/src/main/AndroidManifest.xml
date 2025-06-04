@@ -17,19 +17,25 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".cadastro_realizado"
+            android:name=".back_act.Fsaida"
             android:exported="false" />
         <activity
-            android:name=".TelaPrincipal"
+            android:name=".back_act.RegistroSaida"
             android:exported="false" />
         <activity
-            android:name=".FormCadastro"
+            android:name=".back_act.cadastro_realizado"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".back_act.TelaPrincipal"
             android:exported="false" />
         <activity
-            android:name=".FormLogin"
+            android:name=".back_act.FormCadastro"
+            android:exported="false" />
+        <activity
+            android:name=".back_act.Fcaixa"
+            android:exported="false" />
+        <activity
+            android:name=".back_act.FormLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

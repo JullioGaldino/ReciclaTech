@@ -5,17 +5,19 @@
     android:id="@+id/main"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".cadastro_realizado">
+    tools:context=".back_act.cadastro_realizado">
 
 
-    <androidx.appcompat.widget.Toolbar
+    <ImageView
         android:id="@+id/toolbar2"
-        style="@style/ContainerComponents"
-        android:layout_width="410dp"
-        android:layout_height="62dp"
+        style="@style/Bordas"
+        android:layout_width="200dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
     />
 </androidx.constraintlayout.widget.ConstraintLayout>

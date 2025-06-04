@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="410dp"
+    android:layout_height="410dp"
+    android:gravity="center"
+    android:background="@drawable/bordas_arredondadas"
+    android:orientation="vertical"
+    tools:context=".back_act.RegistroSaida"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Nova Saída"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ic_note_add" />
+
+    <TextView
+        android:id="@+id/txtFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Funcionário:"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editNovoFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira um funcionário"
+        android:background="@drawable/bg_edittext"
+        android:padding="8dp"
+        android:textColorHint="#CCCCCC"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/editValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor:"
+        android:inputType="numberDecimal"
+        android:background="@drawable/bg_edittext"
+        android:padding="8dp"
+        android:textColorHint="#CCCCCC"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/editFormaPagamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Forma de pagamento:"
+        android:background="@drawable/bg_edittext"
+        android:padding="8dp"
+        android:textColorHint="#CCCCCC"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/editMotivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motivo:"
+        android:background="@drawable/bg_edittext"
+        android:padding="8dp"
+        android:textColorHint="#CCCCCC"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar saída"
+        android:background="@drawable/bg_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -11,7 +11,12 @@
     <style name="ContainerComponents_Toobar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">400dp</item>
-        <item name="android:background">@drawable/container_components_toolbar</item>
+        <item name="android:background">@drawable/bordas_arredondadas</item>
+    </style>
+    <style name="Bordas">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">400dp</item>
+        <item name="android:background">@drawable/bordas_arredondadas</item>
     </style>
 
     <style name="Edit_Text">
